@@ -12,12 +12,20 @@
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot-webapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sspring-boot-webapp</name>
+	<name>spring-boot-webapp</name>
 	<description>Demo project for Spring Boot Web application</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/adasffddgg/rdujhw4zqj</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
